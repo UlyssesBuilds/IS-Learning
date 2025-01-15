@@ -1,0 +1,2127 @@
+I am working on the Comptia A+
+
+
+1.0 Domain: Mobile Devices
+
+1.1 laptop hardware and components
+
+Battery
+- Types: Nickel-Cadmium (Ni-Cd), Nickel-Metal Hydride (Ni-Mh), Lithium Ion (Li-ion), & Lithium ion polymer (LiPo)
+- Li-Ion & LiPo differences: No memory effect (battery could forget its full capacity if you didn’t fully discharge battery before recharging). Charging Battery diminishes capability
+- Care: Store in a cool place. Keep Charged between 20-80% to reduce charging strain
+	Optimize charging feature: Stop charging over x%; Learn chagrin routine and adjust
+- Maintenance / replace: Each device has its own battery so we must look it up
+
+Keyboard
+- Maintenance / replace: Connected to motherboard with a single ribbon cable and a few screw
+	Keycaps: manufacturer instructions since they and the mechanics underneath are fragile 
+- Usage: Small form factor = use FN key to enable extra function
+- types: 
+	Mechanical
+	Membrane
+
+
+Random Access Memory (RAM)
+Types: SO-DIMM (laptops / portable; 204/260 pins) & DIMM (desktop; 288 pins)
+	Small outline dual in memory (SO-DIMM) executes all the programs in OS
+- Maintenance / replace: Soldered to motherboard cannot be changed
+	Easy to replace if not by pushing into memory slot
+	
+
+Storage: traditionally 2.5 SATA form factor for portable devices
+HDD (Hard disk drive): traditional spinning drive platter (2.5 inch for desktop)
+SSD (Solid state drive): Entirely flash memory, no moving parts(silent), fast access (no latency), power efficient
+	2.5 inches and 1.8 inches (less traditional before moving to m.2)
+	mSATA: smaller form factor than traditional 2.5 SATA but uses same sata connection
+	M.2: uses PCIe interface(fast) no SATA or power cables, easy to replace
+	Pop into slot and screw down
+
+-> Replace HDD or SSD
+	Open cover for storage or open up entire laptop back
+	Find Storage: unscrew and disconnect SATA (or PCIe)
+		Replace: reconnect and rescrew
+-> Hard disk Drive to Solid State Drive migration
+	Makes everything faster, almost like getting new laptop
+
+
+Wireless Network connectivity
+New: built into motherboard
+Old: mini PCI or Mini PCI express to add connectivity
+	LAN (802.11) Local Access Network
+	PAN (bluetooth) personal area network: short range
+-> designed to be user replaceable;modular by sliding in (wireless cards often use antenna wire)
+ Antenna Wire
+ (3 slots; 2 in use. 1 for WLAN; 1 for WPAN)
+WWAN: wireless wide area network for cellular connection to gain access to network when away from 802.11
+Identity Management:
+Authentication
+What you know:
+Who you have: Near Field communication (NFC)
+What you are: biometrics
+Where you are
+
+Biometrics:
+Needs 1) Software / OS 2) Hardware
+	Face recognition and fingerprint reader
+
+Near Field Communication (NFC)
+	Short distance networking (4 cm or Less)
+Smart card reader; Good for Data transfer or authentication on laptops
+
+ metallic chip enables this
+- Paying with phone or watch at check out is using NFC (metallic chip)
+- Access token, identity “card” Short range with encryption 
+
+
+1.2 display components
+Types of displays:
+Liquid Crystal Display (LCD):
+Advantage:
+	Lightweight, relatively low power and relatively inexpensive
+
+Disadvantage:
+	Black light makes true black very difficult
+	If the backlight was to fail the display would be very difficult to replace
+	There are also many version of backlights
+LCD Technologies
+Backlight:
+1. CCFL (Cold Cathode Fluorescent Lamps)
+	Older Tech: Used for backlighting in older displays (like older LCD screens).
+	Power Usage: Bulkier and requires more power compared to modern technologies.
+	Inverters: Converts DC power (from laptops) into AC power needed by CCFLs.
+-> Inverters may stop working, causing the display to not function. If you can see some information on the screen by flashing light directly at it then it may be the inventors are out
+	May be able to replace inverters; some need a whole display change
+2. LED (Light Emitting Diodes)
+	Modern Backlighting: More common in newer displays than CCFL.
+	Key Benefit: Energy-efficient, thinner, and brighter.
+	Types of LED Backlighting:
+-Edge-Lit LED:LEDs are placed on the edges of the screen; light is distributed using diffusers.
+	Pros: Thin and energy-efficient.
+	Cons: Uneven brightness and no local dimming (poorer black levels).
+-Direct-Lit LED: LEDs are spread throughout the screen but lack local dimming zones.
+	Pros: Improved brightness and contrast over edge-lit.
+	Cons: Still poor black levels (entire screen lights up even for dark areas).
+-Full-Array LED: Grid of LEDs behind the screen with local dimming (better contrast & deeper blacks.
+	Pros: Vibrant colors, better brightness control, and improved image quality.
+ Cons: More expensive and bulkier.
+-Mini-LED: Uses thousands of tiny LEDs for precise local dimming and high brightness.
+	Pros: Better contrast, deeper blacks, and improved image quality compared to full-array.
+	Cons: Still expensive, though cheaper than OLED.
+3. OLED (Organic Light Emitting Diode) 
+	Self-Lighting Pixels: Each pixel emits its own light (no backlight needed).
+-Key Advantages: True Blacks: Pixels can turn off completely.
+	Better color accuracy, wider viewing angles, and faster response times.
+	Thinner and more efficient design. No Glass needed
+-Disadvantages: Burn-In: Prolonged display of static images can damage pixels.
+	High price and shorter lifespan than LED displays.
+	Common Usage: Tablets, smartphones, high-end laptops, and TVs.
+Crystal technology:
+Legacy and Modern Trends:
+	TN was the initial panel type used in LCDs.
+	IPS is now the standard for laptops and devices due to its superior color /viewing angles.
+	VA is uncommon in laptops but still used in TVs for its contrast benefits.
+Strengths and Weaknesses:
+	TN: Fast response, bad viewing angles and colors → Good for gaming.
+		Low viewing angles, low color quality, fast response time, 
+	VA: better contrast, slower response time → Good for TVs and balanced performance.
+		High contrast ratios, good viewing angles, good color quality
+	IPS: Best color and angles, slower response than TN → Good for general use & design.
+		High color quality, wide viewing angles, slow response time
+(Twisted Nematics, Vertical Alignment, In-Plane Switching)
+WIFI antenna connector / placement
+Antennas wrap up the laptop screen as its highest point. 
+Creates challenges to replacing displays as you have to replace antenna wires as well.
+ black and white antennas are for 802.11 
+
+Camera / webcam & microphone
+Webcam integrated 
+		Video capture or calls
+		Includes both audio and video via specialized drivers and software
+	Microphones: 1 for listening, 2 for noise cancellation
+		Mics can be used for voice commands. Ex: cortana always listening for command
+		Not best for anything above casual calls
+Security: Web-cams have a light that indicates they are in use. Microphones don’t.
+	They can be disabled by hackers either way.
+Touch screen / digitizer
+Touch screen or 2 in 1 devices is able to take stylus and maybe even touch screen input
+This works due to a digitizer that changes analog input into digital signals that the computer can use
+
+1.3 Connectivity
+
+
+Connection methods: Used for Synchronization, connectivity, backup, and identification
+Universal Serial Bus (USB)
+- MINI B plug: Older devices used (large ish)
+- Micro B plug: smaller universal USB connection
+- Type A usb
+- USB C - 24 pin double sided USB connector used by devices and computers.
+	Can be inserted either orientation
+	Can support USB 2.0/3.0/3.1/4 standards 
+	Can transmit non USB signals: Displayport, HDMI, Thunder Bolt
+Has power Deliver (PD)
+
+
+Lightening: Apple’s proprietary 8 pin digital signal from Apple
+	Advantages over Micro USB:
+	Higher power output, can be inserted either way (problem before USB C)
+	
+Serial Interfaces: DB - 9 (aka DE -9)
+	Universal connection before USB. Used to connect everything to a computer (eg mouse)
+	Commonly Used for RS -232 signals (recommended standard 232 since 1969)
+		Traditionally used for modem connections now used as a configuration port now
+		(switches, routers, firewalls)
+
+Near Field Communication (NFC): 
+	Built into phone for in-person information exchange such as payment or transportation
+	Can be used as a access token, identity ‘card’ with encryption
+Bluetooth: 
+	PAN
+Hotspot: Own personal wireless router
+	Extend your cellular data network to all your devices
+-> dependent on phone type and provider
+Accessories
+Capacitive Touch pens
+	Activate the interface without actually touching it. 
+	Best for handwriting and precise selection
+-> touch pen can be utilized on any capacitive touchscreen enabled hardware
+
+Active Stylus / Digital stylus: more advanced writing tool
+	Stylus communicated directly to the device
+		Pressure sensitivity, programmable buttons emulates physical pen /paper
+-> often proprietary pen for certain companies to be compatible with the device
+
+Drawing pad: External touchscreen capability
+	Active stylus with an external digitizer
+-> 3rd part device that enables all computers with touchpad
+
+Trackpad: replaces the mouse, best for tight working areas
+	connect external trackpad: battery powered and connect via bluetooth (for desktops)
+	Can perform gestures / actions with multiple fingers (Scrolling, volume, changing tabs)
+Accidental usage: with palm so you could disable the trackpad setting or use FN
+Trackpoint: small, joystick-like device embedded in the keyboard of laptops before touchpad
+	This keyboard has only the track point and 2 buttons
+
+Headset: 
+	Wired via 
+	USB 
+	TRRS (tip, ring,ring, sleeve) 3.5 mm: analog audio jack passing through copper device
+	Lightning port for apple
+	Wirelessly: Bluetooth
+ separates all signals, allowing for input and output
+
+External Speakers:
+	Mobile audio (portable speakers) that are battery powered that have stereo sound
+	Connect via bluetooth
+Webcam: 
+	Internal for laptops, tables, phones
+	External for desktops
+-> Used for multimedia and video connection (photos and video conferencing)
+Docking station:
+	Eliminated plugging and unplugging cables by having one central plug in
+Allows to use external keyboard mouse, display, adds functionality and adapters
+	Adapters allow it to expand its hardware capabilities
+Port replicator: similar to docking station but usually connects via USB and doesn’t have expansion card option
+docking station | 
+
+
+
+1.4  cellular networks
+Mobile devices aka cell phone as we use cellular networks
+Cellular networks as we seperate lands into cells to maintain connectivity by putting antennas per cell
+Wireless/cellular data network
+SIM (subscriber identity module): all phone configurations are on a SIM that can be moved
+
+2G: Good for voice communication; Poor data support
+Originally circuit- switching before having a minor upgrade allowing for packet-switching
+	-GSM (global system mobile communication)
+		Was 90% of the world market & standard in EU; could have coverage worldwide
+		Used by AT&T and T-mobile in US 
+-> Used multiplexing: multiple people could communicate at the same time over same frequency
+OFDM (Orthogonal Frequency-Division Multiplexing)
+	-CDMA (Code division multiple access)
+-> multiple people communicate over same network, each user had unique communication code 
+	Handset could filter out codes that won’t apart of its conversation
+		Used by Verizon & Sprint and handsets are controlled by network provider
+		Not much adoption elsewhere
+3G in 1998
+	Upgraded data connectivity over 2G network, with higher speeds (~ megabits per sec)
+	Bandwidth improvements allowed new functionalities for mobile handsets
+		GPS
+		Mobile Television (Streaming video / audio)
+		Video on demand 
+4G aka LTE (Long term evolution)
+	Converged GSM & CDM standards/providers due to increased complications (switching)
+	-> LTE standard was based on GSM & EDGE (enhanced data rates for GSM evolution)
+	Increased throughput to 150 Mbit/s downloads
+LTE-A (LTE-A)
+	Doubled throughput to 300 Mbit/s download
+5G in 2020
+	Increase throughput. Currently: 100-900 Mbit/s; eventually 10 Gbit/s
+	Impact on IoT:
+		Bandwidth becomes less of constraint allowing Larger data transfer for:
+			Faster monitoring and notification
+			Additional cloud processing 
+
+Preferred Roaming List (PRL) updates
+	Allow phone to know where all the appropriate towers it can connect to are
+	Can be updated over the air (OTA) automatically by carriers – no need for user 
+Hotspot
+	Own personal data router using cellular network
+	Dependent on phone and cellular provider
+Bluetooth
+Enable Bluetooth
+Enable pairing (discoverable mode)
+Select discoverable device
+Enter the appropriate PIN code
+Test connectivity
+	Future connections should now be automatic
+Location services
+Phones can determine where we are using GPS and WIFI cellular towers
+Global Positioning System (GPS) services
+	Created by US department of Defense
+	30+ satellites currently in orbit
+	Precise location if connected to 4 satellites min
+		Determined on timing difference to all the satellites (longitude, latitude, altitude)
+-> maps, direction 
+Cellular location services
+Mobile device management (MDM) / mobile application management (MAM)
+Mobile Device Management (MDM)
+Centralized Management:
+Entire mobile device, whether company-owned or BYOD.
+Configures device-wide settings like email, passwords, and screen locks.
+Corporate Data Control:
+Partition company and personal data.
+Wipe corporate data without affecting personal data.
+Access Control:
+Force screen locks, passwords, and PINs.
+Enforce multi-factor authentication (MFA).
+Corporate Email Configuration:
+Push email configurations (account details, server address).
+Application Policies:
+Manage app installations and enforce app restrictions.
+
+Mobile Application Management (MAM)
+Centralized Management:
+Focused on managing and securing specific corporate applications.
+Data Isolation:
+Isolate and secure corporate app data without managing the device itself.
+Access Control:
+Restrict unauthorized app usage.
+Enforce app-specific MFA.
+Corporate Apps:
+Allow or block specific apps.
+Push required corporate apps to the device.
+
+How to Think About Them
+MDM: Device-wide management—useful for corporate-owned devices or stricter security environments.
+MAM: App-specific management—better for BYOD scenarios or when only corporate apps need to be managed.
+
+
+Mobile device synchronization require cloud to sync changes from phone to other devices
+Microsoft 365
+Google workspace (works similar to microsoft 365)
+iCloud
+
+Many organizations rely on microsoft's service 
+Microsoft 365: cloud based servers
+	Email: outlook / microsoft exchange
+		Every organization handles email services differently
+	-> authenticate to microsoft 365 via Username and passwords
+		Gain access to email settings to enable/disable items to synch
+note created on phone appears on desktop 365	
+(Google Workspace also works in similar fashion)
+
+Apple iCloud is limited to apple but has extensive synch customization options 
+	backed up in the cloud (new phone is easy to login to iCloud and regain all information)
+microsftapple
+Data types synchronized	
+	Mail
+	Photos
+	Calendar
+	Contacts
+
+
+Data caps and transfer cost
+Synch may transfer large data amount, we can configure how the data is sent & which networks
+	Cellular or limit to only download via 802.11
+	Enable / disable network connections 
+	Control how you download over a cellular network
+auto download and how much data can be transfered
+
+
+2.0 Domain: Networking
+Internet Protocol (IP)
+IP is the set of rules that efficiently moves large amounts of data across a network by dividing it into manageable chunks called packets.
+Think of IP as the truck system that moves data boxes (packets) between addresses.
+Each box has a header, like a shipping label, that specifies:
+Where it’s coming from (Server/client IP).
+How it is going to get there (protocol ;TCP/UDP)
+Where it needs to go (server application port number).
+How to handle and reassemble the data upon arrival.
+Once the data reaches the destination (the “house”), application headers specify which "room" (application) should process the data.
+
+[Network topology is how devices are connected physically (cables) and logically (how data flows throughout the network)
+Ex: Even if devices are physically in a star formation, the logical data flow might follow a ring pattern.]
+
+
+
+2.1 Ports and protocols 
+TCP & UDP
+Operates at OSI layer 4 transport layer protocol
+Most common ways to transfer data which are Encapsulated inside the IP protocol (layer 3)
+-> Multiplexing: allows multiple applications to communicate simultaneously using different port numbers.
+ 
+TCP (transmission control Protocol)
+A connection oriented protocol as there is a formal process to set up and close the flow of data 
+	“Reliable” delivery: verifies that the data has been received on the other side
+		reorder out of order messages and has retransmission for not received data
+	Flow control mechanism: If device feels it is receiving information too quickly it can slow how much data is sent
+[Initial Connection 3 way handshake: process establishes a reliable connection between sender and receiver before any data is transmitted:
+SYN: Sender requests to start a connection.
+SYN-ACK: Receiver acknowledges and agrees to the connection.
+ACK: Sender confirms the acknowledgment, and the connection is established.
+This ensures both sides are ready and aware of each other.]
+
+UDP (user datagram protocol)
+Connectionless oriented protocol as there is no formal open or close to the connection
+	Continuously sends data from one device to another
+	“Unreliable” as there is acknowledgment that the other device received the information
+		Cannot reorder data or retransmit
+	No FLow control: as this is a single conversation between one device to another
+
+
+
+
+Connectionless / UDP: best for quick real time communication
+Best for quick, real-time communication when time doesn’t stop for your network.
+No acknowledgment (ACK): It's the application's responsibility to track delivery and handle retransmissions if needed.
+relies on the application layer (not the transport layer) to handle retries if something goes wrong.
+Examples of Protocols Using UDP:
+DHCP (Dynamic Host Configuration Protocol):
+Automatically assigns IP addresses to devices.
+If no response is received, DHCP retries sending the information.
+TFTP (Trivial File Transfer Protocol):
+Used for transferring small files, like configuration data or boot images.
+Common in environments like routers or diskless workstations.
+Connection-oriented:
+Receives acknowledgment aka “return receipt” 
+	No need for the application layer to manage data retransmission, as the transport layer (e.g., TCP) handles this automatically.
+HTTPS (hypertext transfer protocol secure)
+		application-layer protocol for transmitting hypermedia documents, such as HTML
+SSH (Secure shell)
+		used primarily for remote login and command execution.
+
+Ports and protocols
+non-ephemeral ports; permanent ports 
+	Ports 0 - 1,023
+
+
+tcp/20 – (FTP) File Transfer Protocol active mode: Data transfer
+tcp/21 - (FTP) control mode: control the data transfer
+tcp/22 – (SSH) Secure Shell: encrypted remote connection
+tcp/23 – Telnet: remote connection
+tcp/25 – (SMTP) Simple Mail Transfer Protocol: send mail
+udp/53 – (DNS) Domain Name System: Converts name to IP addresses
+udp/67 – (DHCP) Dynamic Host Configuration Protocol: server listen for incoming client request
+udp/68 – (DHCP) client device receives DHCP response from DHCP server
+tcp/80 – (HTTP) Hypertext Transfer Protocol: way to get page resources over internet
+tcp/110 – (POP3) Post Office Protocol 3: retrieves mail from mail servers and deletes them
+
+
+udp/137 – (NBname) NetBIOS name service: getting IP address
+udp/138 – (NetBIOS-DGM) NetBIOS datagram service: quick alert service
+tcp/139 – (NBsession) NetBIOS session service: establish a session to transfer data
+tcp/143 – (IMAP) Internet Mail Access Protocol: retrieves mail from mail server; synch changes 
+udp/161 – (SNMP) Simple Network Management Protocol: performs queries to network server
+udp/162 – (SNMP) Simple Network Management Protocol: sends network server traps / alerts
+tcp/389 – (LDAP) Lightweight Directory Access Protocol: query / manage directory services
+tcp/443 – (HTTPS) Hypertext Transfer Protocol Secure: securely get page resources
+tcp/445 – (SMB/CIFS)Server Message Block: NetBIOS-less windows file transfer
+	(Common Internet File System)
+3389 – (RDP) Remote Desktop Protocol: Microsoft remote access
+
+SMB / CIFS 
+Old computer: NetBIOS/NetBT (Network Basic Input/ Output System/ NetBIOS over TCP/IP
+	udp/137, udp138, tcp/139
+New computer: SMB NetBIOS-less
+	tcp/445
+
+Ephemeral ports - temporary ports
+	Ports 1,024 - 65,35 determined in real-time by client
+
+-Server listens on well-known ports for requests (like port 80 for HTTP).
+-Client initiates communication with the server, which assigns a temporary ephemeral port for a communication session.
+-Ephemeral ports prevent conflicts by ensuring each client-server communication is unique.
+
+Most services / servers use these non-ephemeral port numbers but some use dynamic port numbers / ephemeral port numbers
+	We can connect as long as we know the port
+	Port numbers are not for security but for communication 
+	(placing it service on a less known port might just make it harder to initially find)
+
+-> TCP and UDP have its own set of port list
+	Thus we can have 2 different services running on port 80 (TCP port 80; UDP port 80)
+	Does Not typically happen since it can be confusing
+
+TCP source port is ephemeral port where communication takes place; ports are in TCP payload
+
+
+Non-ephemeral ports need to be known by client to match to server
+	Important for firewall rules that are port based security
+	Allowing / disallowing traffic based on port numbers
+
+File Transfer Protocol (FTP): generic way to transfers files from one device to another
+Commonly requires authentication with username and password to login to remote device
+-> Some systems use a generic anonymous login so any password can be used to gain access
+	Full features file management functionality: we can see all files, add, delete, etc
+	Tcp/20 (Active mode data): data transfer
+	TCP/21 (control): control the data transfer
+
+(SMB / CIFS) Server message Block / common internet file system
+Operating systems have their own method to transfer files/info between devices using same OS
+protocol by Microsoft Windows
+	Aka Common Internet File System (CIFS) as it was the first version of SMB
+
+- Communicating with older machine
+	Uses NetBIOS over TCP/IP (net basic input / output system)
+		UDP/137 (NBname) NetBIOS name service using method: 
+			1) Broadcast; noisy & causes congestion; asks all devices on the network 
+			who owns NetBIOS name 01. Device responses with IP address
+			2) WINS (Windows Internet Name service); Like DNS as its a centralized 
+			database server to resolves netBIOS name to IP address
+			-> query this only so better across largest multinet subnet networks
+		TCP/139 (NBsession) NetBIOS session service:
+			Establishes a session to transfer data between devices
+
+UDP/138 (NetBIOS datagram service): connectionless communication for notification / announcements like File transfer complete or device available
+Quick message so no service
+- Communicating with newer machines
+	Uses NetBIOS-less SMB
+		TCP/445: allows direct SMB connection between devices using only TCP/IP avoiding netBIOS
+	[what does that meant; what parts does it avoid also is the port number even right?]
+–
+
+NetBIOS-Based Communication:
+WORKSTATION1 wants to communicate with PRINTER01.
+It sends a query over UDP/137.
+If a WINS server is present, it resolves the name to an IP address. If not, a broadcast is used.
+A session is established over TCP/139 for file or printer sharing.
+NetBIOS-less Communication:
+WORKSTATION1 and PRINTER01 communicate directly using TCP/445.
+The operating system handles name resolution (via DNS or static configurations).
+There’s no need for a WINS server or NetBIOS broadcasts.
+Why Avoid NetBIOS?
+Legacy Dependency: NetBIOS was designed for smaller, simpler networks and isn’t optimized for modern, large-scale networking.
+Efficiency: Direct SMB communication (TCP/445) eliminates extra layers like NetBIOS, reducing latency and improving performance.
+	No need ot broadcast or WINS for name resolution
+	Sesisons are established directly over TCP/ IP
+Security: NetBIOS is more vulnerable to attacks (e.g., broadcast poisoning, spoofing). Modern SMB versions use robust encryption and authentication mechanisms over TCP/IP.
+
+
+
+
+
+Remote connection to a device (console access)
+	tcp/ 22 Secure Shell (SSH): tcp/22 
+		Data sent over the network is Encrypted data 
+	Tcp /23 Telnet tcp/ 23
+		Data sent over the network in the clear
+		Not the best choice for production system
+		– anyone capturing packets will see everything: Username, passwords
+Mail:
+Send mail:
+tcp/25 Simple Mail Transfer Protocol (SMTP)
+Outgoing Mail Server:
+Users' mobile devices or email clients are typically configured with an outgoing mail server (SMTP server).
+
+Email Sending:
+When a user sends an email, their device connects to the SMTP server. The server then relays the email to the recipient’s mail server.
+
+Server-to-Server Communication:
+tcp/ 25 - SMTP is used for server-to-server email transfer. The sender’s SMTP server communicates with the recipient’s SMTP server to deliver the message, typically using TCP port 25 (though alternative ports like 587 or 465 may be used for secure transmission).
+–
+Receive mail:
+tcp/110 – Post Office Protocol 3 (POP3)
+	downloads and removes emails from the server ( retrieving message to an email client)
+	Wasn’t built for multiple email clients (many different mobile devices)
+tcp/143 – Internet message Access Protocol (IMAP)
+	retrieves emails while keeping them synchronized on the server 
+	-> allowing users to access their mail from different devices (e.g., phone, laptop).
+	Includes management of email inbox
+
+
+UDP/ 53 – Domain Name System (DNS)
+	Converts names to IP addresses
+
+
+Dynamic Host Configuration Protocol (DHCP)
+DHCP automates the configuration of network settings for devices connecting to a network, including assigning IP addresses, subnet masks, and other parameters like gateways and DNS servers.
+Key Features:
+Dynamic/Pooled IP Addressing:
+The DHCP server has a pool of IP addresses available to assign to client devices.
+These IP addresses are leased to devices for a specific duration (lease time).
+If a device does not renew the lease, the IP address returns to the pool for reassignment.
+DHCP Reservation:
+A feature to assign the same IP address to a specific device every time it connects.
+Based on the device's MAC address.
+Commonly used for important network devices (e.g., routers, switches, firewalls) that need consistent IP addresses.
+Centralized Configuration:
+IP configurations can be managed directly from the DHCP server, making network management more efficient.
+Ports Used by DHCP
+UDP/67: Used by the DHCP server to listen for incoming client requests.
+UDP/68: Used by the client device to receive DHCP responses from the server
+DHCP Workflow (Simplified):
+Client Broadcasts (Discovery):
+The client device sends a broadcast to locate a DHCP server using UDP port 68.
+DHCP Server Offers:
+The server responds with an available IP address and configuration details using UDP port 67.
+Client Accepts (Request):
+The client accepts the offered IP address and configuration.
+Server Confirms (Acknowledgment):
+The server finalizes the process, leasing the IP address to the client.
+Why DHCP Uses UDP:
+Broadcast Communication:
+DHCP Discovery and Offer messages are sent as broadcasts to reach all devices on the local network (since the client doesn't initially know the DHCP server's IP address).
+TCP is not well-suited for broadcasting, as it requires a direct connection between two specific devices.
+Lightweight and Fast:
+UDP is simpler and faster than TCP because it does not require the overhead of establishing and maintaining a connection (e.g., TCP's three-way handshake).
+DHCP is designed to quickly provide clients with IP addresses and configuration settings, so speed is a priority.
+Fault Tolerance at the Application Level:
+Although DHCP does not use TCP's acknowledgment system, it relies on the application layer to handle retries if communication fails.
+For example, if the client does not receive a response, it will resend the DHCP Discover message after a timeout.
+No Persistent Connection Needed:
+DHCP interactions are brief and do not require an ongoing connection between the client and the server.
+Once the client obtains its IP address, no further communication with the DHCP server is needed until the lease is renewed.
+If DHCP used TCP:
+A client would first need to establish a connection with the server (requiring a known server IP address, which the client doesn't have initially).
+TCP’s additional overhead would slow down the process of IP assignment, which is critical for seamless network operations.
+Web server connection
+	tcp/80 HTTP (hypertext transfer protocol) - web server communication in the clear
+	Tcp / 443 HTTPS - web server communication with encryption
+protocols for communication between web browsers (clients) and web servers. They facilitate the transfer of data (like HTML pages, images, videos, etc.) over the internet.
+
+[The client sends an HTTP request to a server (e.g., "GET me the homepage of example.com").
+The server processes the request and sends back an HTTP response (e.g., the HTML file and associated resources).
+Stateless Protocol: HTTP itself does not keep track of user interactions. Each request is independent of the previous one. (Sessions and cookies are used to overcome this limitation.)]
+HTTPS uses SSL/TLS (Secure Sockets Layer/Transport Layer Security) to encrypt data transmitted between the client and server.
+It ensures the data cannot be read or tampered with by malicious parties.
+It also verifies the server’s identity via digital certificates, ensuring you are connecting to the right server.
+
+
+
+
+Network administrator
+Allows a network management device to query infrastructure devices for performance details
+	Gather statistics / metrics from network device
+SNMP (Simple Network Management Protocol)
+V1: original SNMP sending information in the clear
+	Keeps metrics in structured tables – stored in array like structure
+	So you could only query specific rows / get specific details
+
+V2: SNMP data sent in the clear
+	Allows bulk transfer of information
+	Can handle enhanced data types so it can have more accurate and flexible monitoring
+V3: SNMP has secure standards
+	Message integrity, authentication, & encryption
+
+
+	UDP/161: performs queries
+	UDP/162: traps / alerts. We can set up infrastructure devices to monitor for certain metrics. If they exceed metric we get traps / alert
+
+TCP/ 389 – Lightweight Directory Access Protocol (LDAP)
+Query and manage directory services on a network. 
+Allows clients to access and search for information stored in a directory (user accounts, groups, and devices)
+	Common version is Microsoft ACtive Directory
+TCP/636: LDAPS LDAP over SSL/TLS for secure communication.
+
+
+TCP / 3389 – Remote Desktop Protocol (RDP)
+	Standard protocol for windows for Remote sharing access to a desktop
+	Built into OS to connect or receive a remote desktop session
+RDP can take over & control entire system or run a single applications
+	There are clients for all other OS
+
+2.2 common networking hardware
+Many different devices and components with different roles
+	Some functions are combined together
+What are these devices, when should I use them in my network
+
+Home network’s SOHO router includes switches, router, and WAP into one
+
+
+Hub: Hubs are wired devices used to connect multiple devices in a network
+- Broadcast Everything: A hub sends all incoming traffic to every connected device, regardless of the destination. This creates unnecessary network congestion.
+-> hub AKA multiport repeater 
+- everything is running at half- duplex
+- Collision Domain: All devices share the same collision domain, leading to data collisions and reduced performance, especially as the network grows.
+- Layer 1 Device: Operates at the Physical Layer (Layer 1) of the OSI model, with no knowledge of MAC addresses or network segmentation.
+	Hard to find
+- only run at 10 megabit / 100 megabit speeds
+
+Hub Overview
+Hub is a basic networking device used to connect multiple devices in a network. However, it has limitations that make it less efficient compared to modern network devices like Switches.
+Aka multiport repeater as it broadcast traffic across the whole network. Hard to find
+Broadcast Traffic:
+A hub sends all incoming data to every connected device, regardless of the destination. This causes unnecessary traffic and slows down the network.
+Half-Duplex Communication:
+Hub can only send or receive data at one time. This limits network performance as devices cannot simultaneously send and receive data.
+Collision Domain:
+All devices connected to a hub share the same collision domain. This means that data packets can collide when two devices try to send data at the same time, resulting in a delay due to retransmissions.
+As more devices are connected, collisions increase, further degrading network performance.
+Layer 1 Device:
+Hubs operate at the Physical Layer (Layer 1) of the OSI model. They do not process or filter data; they simply forward electrical signals or bits to connected devices.
+A hub does not have the ability to interpret or manage MAC addresses or IP addresses.
+Limited Speeds:
+Traditional hubs typically support 10 Mbps or 100 Mbps speeds. These speeds are outdated compared to the higher speeds offered by modern switches (1 Gbps and above).
+
+
+
+Switches:
+A switch, often referred to as an "intelligent hub," is a wired networking device that routes traffic between connected devices based on their MAC addresses. 
+This targeted traffic delivery enhances efficiency and overall network throughput.
+Key Features
+1. Traffic Efficiency
+MAC Address-Based Routing: Directs data to the specific port or device, reducing unnecessary traffic.
+2. High-Performance Hardware
+ASIC (Application-Specific Integrated Circuit): Enables extremely high throughput, allowing fast and efficient data forwarding.
+3. Enterprise Core Functionality
+Often serves as the backbone of enterprise networks, connecting numerous devices.
+May provide Power over Ethernet (PoE) to power devices
+Switch Types
+1. Unmanaged Switches
+Basic Functionality: Fixed configuration with minimal options for customization.
+No VLANs: Limited to a single broadcast domain.
+No SNMP Support: Cannot monitor performance metrics or integrate with advanced network management tools.
+2. Managed Switches
+Advanced Capabilities:
+VLANs: Assign ports to different IP subnets for improved network segmentation.
+Traffic Prioritization: Configure traffic for critical applications.
+SNMP Support: Monitor and manage network performance.
+Spanning Tree Protocol (STP): Prevent loops between switches in the network.
+Port Mirroring: Duplicate traffic from one port to another for packet analysis or troubleshooting.
+-> Multilayer switches (layer 3 switches) combine router functionality of routing traffic
+
+Router: networking device that control traffic on network, connecting multiple networks
+Operates at layer 3 of the OSI model, it handles IP-based communication to ensure efficient data delivery by determining the most efficient route for traffic.
+Key Functions
+1. Subnet Management
+Subnet Masks: Define network boundaries and enable routers to separate and manage subnets.
+Network Segmentation: Divide large networks into smaller, more manageable subnets, improving performance and security.
+2. Forwarding Decisions
+Routing Table: Determines the best path for data packets based on the destination IP address.
+Internal vs. External Traffic: Routes data within the same subnet or forwards it to another network.
+3. Network Interconnection
+Hierarchical Communication: Routers work within a global hierarchy, passing data through multiple routers to its destination.
+Versatility: Connects diverse network types, including LANs, WANs, copper, and fiber networks.
+Layer 3 Switches: Some switches include routing capabilities, integrating switching and routing into a single device.
+
+Router: determines route by IP address
+Switch: determines route by MAC address inside the IP frame
+
+
+
+Wireless Access Points
+	AKA bridge, Just Provides link between wireless network to the wired (ethernet) network
+	-  NOT a wireless router which is a access point & router in one
+	Makes forwarding decisions based on the destination MAC addresses
+		Determines if it should it forward information to the wired or wireless network
+
+Cable Infrastructure
+Patch Panel
+A patch panel is a central point in a wired network that organizes and connects devices on a floor to a switch or other networking equipment.
+Device Connections:
+Devices are wired to the patch panel using 110 blocks (permanent punch-down connections).
+ RJ45 Connectors:
+The front side of the patch panel features RJ45 connectors.
+These connectors link the patch panel to the switch inside the wiring closet.
+Ease of Maintenance:
+Adding or relocating users is simplified. For example, if a new user needs to be added or moved, the RJ45 cables at the front of the patch panel can easily be rearranged to connect to another switch port.
+Cable Management:
+RJ45 cables at the front of the patch panel are shorter and labeled for clear identification, reducing clutter and simplifying troubleshooting.
+Stacking Layout:
+The patch panel is typically located at the top of the rack and connects to a switch positioned below it.
+
+
+
+
+ RJ45 cables in the front; 110 blocks permanently punch down device connections 
+ Top is patch panel wired into the switch at the bottom
+
+Firewall
+firewall is a network security device that monitors and controls incoming and outgoing traffic based on predefined security rules.
+Traffic Filtering:
+Operates at Layer 4 (TCP/UDP) of the OSI model to filter traffic by IP addresses and port numbers.
+Advanced firewalls (application-aware) also operate at Layer 7, filtering traffic based on specific applications or protocols.
+Proxy Functionality:
+Firewalls can act as a proxy:
+They browse the internet on behalf of the user.
+Responses are analyzed for safety before being forwarded to the user.
+Encryption:
+Many firewalls encrypt traffic entering and leaving the network, enhancing data security.
+Routing Capabilities:
+Firewalls often include routing functionality (Layer 3).
+This enables them to make routing decisions based on destination IP addresses.
+Edge Device Role:
+A firewall is typically the device directly connected to the internet.
+It forwards traffic to the internal network while enforcing security policies, effectively combining firewall and router functionality.
+
+Power Over Ethernet (PoE)
+Power provided through ethernet: Phones, cameras WAP (anywhere in difficult to power areas)	
+
+
+Endspan: Switch has built in PoE
+Injector / midspan: device placed in the middle of non-PoE switch to device
+	Injector is plugged into wall for power to operate and send PoE through ethernet
+
+Most switches identify what can work over PoE’ port 9 is an uplink port; no PoE
+
+
+PoE standards (802.3)are different type of switch you are using:
+PoE IEEE 802.3af-2003
+Original PoE specification
+	15.4 watts DC power, 350 mA (milliamps) max current
+PoE+: IEEE 802.3at-2009
+	25.5 watts DC power, 600 mA max current
+PoE++: IEEE 802.3bt-2018
+Designed to work with 10 GBASE-T (gigabit per second ethernet and power 10 Devices)
+	Type 3: 51 W, 600 mA max current
+	Type 4: 71.3 W, 960 mA max current
+
+GBASE-T: G=gigabit; BASE= baseband in ethernet; T=twisted pair cables
+	Thus GBASE is just saying transmitting data over twisted pair copper cables (cat5, etc)
+
+
+
+
+
+Modem:
+Modulator-demodulator: converts digital data from computer / network device into analog signals that can be transmitted over a communication medium (telephone, cable, fiber) 
+	Cable modem
+	DSL 
+	ONT
+
+
+Cable Modem
+	Coaxial cable used for both TV and internet data
+	broadband has a wide range of frequency bands for different types of data 
+		Simultaneously transmit Tv signals, internet data, phone services
+	Shared bandwidth: total bandwidth is divided among all users on our neighborhood node	
+- DOCSIS (Data on the cable service interface specification)
+	Standard that Defined how data is transmitted over the cable network efficiently
+-> DOCSIS 3.0 support 1 Gigabit/s; (new) DOCSIS 3.1 support 10 GBps download / 1 up
+
+
+
+Digital Subscriber Line (DSL) modem
+	Twisted-pair copper cabling that uses existing telephone lines
+	Dedicated bandwidth: connection to the ISP; no sharing among neighbors
+		speeds depend: distance from the ISP's equipment & quality of telephone line
+	Not using a cable company for the internet? Using telephone company
+- ADSL (asymmetric digital subscriber line) is the most common
+	Asymmetric as download speeds are faster than upload speeds
+	52 Mbps/ downstream; 16 Mbit/s upstream is common
+		~10,000 feet radius from central office (CO). Speeds may be faster closer
+
+Lower speeds: While DSL is generally more reliable than cable in terms of maintaining consistent speed, its maximum speeds are usually lower (typically up to 100 Mbps for basic DSL, though newer versions like VDSL can offer higher speeds).
+Distance limitations: The farther your home is from the DSLAM (DSL Access Multiplexer) or central office, the slower your speeds may be, as the signal weakens over longer distances.
+
+
+
+Optical Network Terminal (ONT)
+Not connecting to internet using Copper cables or telephone lines than you may be using fiber via an ONT. this is usually connected outside your building.
+Converts ISP fiber network to copper network that can be used by ethernet
+Delineation from ISP network to internal network this is called the demarcation point (demarc)
+	Where the Demarc exist helps you figure out your responsibilities and what the other party is responsible for
+	One side of the box is ISP another is my network
+
+Network Interface Card (NIC)
+	All devices connected to the network use this 
+	Each NIC has a specific network type (ethernet, WAN, wireless, etc.)
+
+
+Software-Defined Networking (SDN)
+Takes networking infrastructure and decouples how it works into 3 common layers to use in a cloud setting
+
+1. Infrastructure Layer (Data Plane)
+Key Functions: This layer is responsible for handling all of the low-level network operations that occur at the packet level.
+Tasks:
+Packet Forwarding: Routing packets from one device to another based on destination addresses.
+Frame Processing: Handling Ethernet frames and other lower-layer communication processes.
+Trunking: Allows multiple network connections between switches and other devices.
+Network Address Translation (NAT): Modifying network address information in packet headers to map private IP addresses to public IP addresses and vice versa.
+Purpose: The data plane does the "heavy lifting" of packet movement based on rules and tables, such as forwarding packets, enforcing VLANs, and applying QoS (Quality of Service) rules.
+2. Control Layer (Control Plane)
+Key Functions: This layer manages how data is forwarded and routed by determining the network paths and making routing decisions.
+Tasks:
+Routing Protocols: The control plane uses dynamic routing protocols (such as OSPF, BGP) to determine the best path for data across the network.
+Forwarding and Routing Tables: Routers and switches use tables (like routing tables and NAT tables) to decide where packets should be sent.
+Session Tables: Switches and routers maintain session tables to track connections and manage traffic flow.
+Purpose: This layer doesn't deal with actual data forwarding but manages the logic and rules that decide how the data should flow through the network. It essentially tells the data plane how to forward the traffic.
+3. Application Layer (Management Plane)
+Key Functions: This layer provides the interface for network management and control. It allows administrators and programs to interact with the network devices and manage network configurations.
+Tasks:
+Network Device Management: Logging into devices and configuring them using APIs, SSH, or a browser interface.
+Automation & Configuration: Tools and systems for automating network configurations and making changes across the network.
+Network Monitoring & Troubleshooting: Collecting data, performing diagnostics, and maintaining the health of the network.
+Purpose: This layer is where network administrators, software programs, and external services interact with the SDN system to manage the network. It provides a centralized control interface to configure, monitor, and optimize the network.
+
+
+Left showcase how we take apart Physical device’s work into these 3 categories to use in a cloud based infrastructure (right)
+
+
+OSI model
+Physical (Layer 1)
+	Deals with physical connections (cables, signals, voltages).
+Data Link (Layer 2)
+	Handles MAC addresses and ensures data gets to the correct device on a local network.
+Network (Layer 3)
+	Routes data using IP addresses, connecting multiple networks.
+Transport (Layer 4)
+	Manages end-to-end communication, ensuring error-free data delivery (TCP/UDP).
+Session (Layer 5)
+	Establishes, maintains, and ends communication sessions between applications.
+Presentation (Layer 6)
+	Formats data so it’s usable by applications (encryption, compression).
+Application (Layer 7)
+	Provides network services to applications (browsers, email clients).
+—
+Sending Data (Top to Bottom):
+Application (Layer 7):
+The user initiates an action, like sending an email.
+Presentation (Layer 6):
+The email is converted into a standardized format and encrypted.
+Session (Layer 5):
+A connection session is created between the sender and the recipient.
+Transport (Layer 4):
+The email is divided into packets, and TCP ensures reliable delivery.
+Network (Layer 3):
+Each packet is given a destination IP address and sent to the correct network.
+Data Link (Layer 2):
+MAC addresses are added so the data can reach the right device on the local network.
+Physical (Layer 1):
+Packets are converted into electrical signals or light pulses and sent over the physical medium (cable, fiber, wireless).
+Receiving data (Bottom to top)
+Physical Layer (Layer 1):
+The data arrives as raw signals (electric pulses, light, or radio waves) and is converted into binary (1s and 0s).
+On a Router: The router checks:
+Layer 2 (MAC address): To ensure the frame is addressed to it.
+Layer 3 (IP address): To figure out where to send the packet next.
+It then replaces the old MAC addresses with new ones for the next hop while keeping the same IP packet.
+On a Device (NIC):
+Once the data reaches the final device:
+Layer 2 (MAC address): Ensures the frame is addressed to the device.
+Layer 3 (IP address): Confirms the packet is intended for the device.
+Transport Layer (Layer 4):
+The port number is checked to determine which application (e.g., web browser, email client) should handle the data.
+TCP or UDP ensures the data is complete and error-free.
+Session, Presentation, and Application Layers (Layers 5-7):
+The data is reassembled and passed to the appropriate application, such as your email client or web browser.
+
+
+2.3 wireless networks
+
+IEEE LAN/MAN Standards committee create standards
+	802.11 for wireless connections
+	Wi-Fi is trademarked from WiFI alliance who test interoperability of all wireless devices
+
+
+802.11
+A
+	Created in 1999, operates in 5 GHz range (can listen to other frequencies with special license). 
+	54 Mbit/s
+B
+	Created in 1999. Operates in 2.4 Ghz. 
+	Better range than 802.11a (frequencies waves bounces around but slower at 11 Mbit/s
+	Not an upgrade to 802.11a: it is to operate at different frequencies and speeds
+	-> Used over 802.11a in cluttered space (office with a lot of desk); Good in warehouse
+	11 Mbit/s
+G
+	Upgrade to 802.11b, operating in 2.4 GHz. Created in 2003.
+	Increased speed to 54 Mbit/s but still has same frequency conflict 
+	Backwards compatible to b; we can upgrade access point and still use 802.11b
+–
+To not have to worry about calling it a,b,g we converted to calling it as a wifi standard
+–
+N (wifi 4).
+	Upgraded 802.11a,b, and g in 2009 so it operates in 2.4 & 5 GHz simultaneously
+	More bandwidth per channel (40 MHz channel widths) to transfer more data at once
+	-> max throughput is 600 Mbits/s (if 40 MHZ mode enabled & modem has 4 antennas)
+	Introduced MIMO (multiple input, multiple output) 
+		Multiple antennas can transmit and receive, now more data simultaneously
+Ac (wifi 5) 2014
+	Improvement over wifi 4. Only 5Ghz frequency but now has 160 MHz channel bandwidth
+	Signaling modulation: faster data transfer by changes how info is transferred
+Introduced MU-MIMO (multiple user MIMO) now multiple users can communicate over MIMO
+	There can be now up to 8 streams, translation to throughput 7 Gbit/s
+** if 802.11 ac access points states it has 2.4 GHz it is using wifi 4 (802.11n)for that portion 
+Ax (wifi 6) 2011
+	Operates at 5 & 2.4 GHz; has 20,40,80, and 160 MHZ channel bandwidths 
+	1,201 Mbit/s per channel 
+Introduced OFDMA (Orthogonal frequency-division multiple access) 
+	Brought cellular network tech to wifi to effectively use when there are large mass of people (trade show) without loss of efficiency
+
+802.11ac support 8 Downloadable (DL) MU-MIMO
+802.11ax support 8 Downloadable (DL) and upload (UL)
+	We can support up to 16 devices without congestion if 8 are UL and 8 are DL
+
+
+
+MIMO (post wifi 4), multiple input, multiple output
+MxN; M is download streams; N is upload streams
+	Parallel streams that split data into multiple simultaneous paths (paths) simultaneously
+	Depends on router (4x4) supports 4 simultaneous data streams or lines
+	-> streams used up to capacity give at minimum one stream per device
+		Then it starts dividing existing streams so there are multiple devices per stream
+SISO (pre wifi 4) Single input, single output
+	Everyone uses a Single stream of data from router to devices.
+	Can lead to congestion if multiple users as packets have to take turns
+
+Frequencies
+2.4 GHz
+	Longer distance; lower frequencies bounce around objectives
+	More frequency conflicts as more devices use 2.4 
+		(baby monitors, cordless phones, microwaves, bluetooth)
+5GHz
+	Short distance; Higher frequencies is absorbed by objects in the way
+
+Bandwidth Channels
+	How much data we can transfer all at once
+These are numbered by IEEE
+	If we are running multiple access points ensure that they are running on different channels
+Regulation: countries regulate and manage frequency use
+	Max power that can be used on networks. Set requirements and limits how much interference can be caused by 802.11 networks
+2.4Ghz has 3 channels that are 20 MHz: 1,6, & 11
+5 GHz has more 20 MHz (cannot use red) 
+
+
+On 5Ghz we may choose to communicate on larger bandwidth channels for more throughput
+(20 MHz, then 60, 80, 160A)
+
+-> widely used Unlicensed frequency bands are ISM band: 900 MHz, 2.4 GHz, 5 GHz, 5.8 GHz
+
+Bluetooth networks
+Uses the unlicensed ISM (industrial, scientific, medical) bandwidth on 2.4 GHz
+	(same as 802.11)
+Short range (PAN) usually up to 10 meters in difference
+	Industrial bluetooth is up to 100 meters
+
+
+
+Long range fixed wireless - Antenna
+WAP at home has about ~ 40 to 50 meters
+Connect two buildings with Fixed directional antennas and increase overall signal strength
+	Outdoors has many signal absorption or bounce ; directional antennas stay focused
+
+Rules and regulations for wireless communication:
+What frequencies you can use, where you can use them, how much of the signal can be sent based on inside and outside the building
+	You can use unlicensed 2.4 and 5 Ghz frequencies
+	You can apply for additional frequencies; may require licensing 
+-> Installing antennas outside have own safety requirements; get expert
+	Not near power source; protection against lightning
+
+Focused directional antennas
+	Yagi antenna
+	Dish antenna
+	Parabolic antenna
+Omni directional antennas = signal in all directions (360°)
+
+Radio frequency identification (RFID)
+RFID uses radio waves for identifying and tracking objects or individuals. Common applications include access badges, assembly line tracking, pet identification, and inventory tracking.
+Passive:
+	No batteries; Relies on radio energy emitted to the tag that power the chip to respond
+	Unidirectional communication: transmits a fixed response
+	Few meters as it must be powered by reader
+Active / powered RFID are tags that do have a power source
+	Bidirectional communication such that tag’s response is dynamic to reader’s commands
+
+Designed for real time tracking and monitoring of assets over large areas;
+Ideal for periodic updates such as tracking environmental conditions
+
+
+NFC (near field communication) is built off of RFID 
+encrypted close range two way communication 
+	Two way wireless communication: both devices exchange data interactively and 
+Payment systems, access cards, Bluetooth pairing, identity authentication.
+
+Focused on user-facing applications, where interaction and intent are critical thus it only works on High Frequency (HF) 12.56 MHz
+
+-> 
+Passive RFID: Best for applications where static information (like an ID or serial number) needs to be transmitted and cost-effectiveness is a priority.
+Examples: Inventory tracking, pet identification, access control.
+NFC: Best for applications requiring dynamic, secure responses or user interaction over short ranges.
+Examples: Contactless payments, secure identification, device pairing.
+Active RFID: Best for tracking items over longer ranges or in environments requiring periodic updates on location or status.
+Examples: Asset tracking, toll systems, real-time monitoring.
+Dynamic Functionality: Unlike passive RFID, which just reflects data to a reader, active RFID can include sensors for real-time updates (e.g., temperature or motion).
+[If you think of active RFID as a self-powered tracking technology, separate from passive RFID/NFC's reactive identification role, it becomes clearer how it fits into the broader landscape.]
+
+
+2.4 Network services
+
+Servers
+DNS (domain name system): Convert names IP addresses
+Critical service: there are multiple DNS to ensure availability
+Distributed naming system: queries are rooted through a hierarchy of Root, Top level domain and then authoritative
+	The recursive resolver first queries a root server:
+	"Where can I find .com domains?"
+	Then it queries a TLD server:
+	"Where can I find google.com?"
+	Finally, it queries an authoritative server:
+	"What is the IP address for www.google.com?"
+[tools like dig or nslookup see how DNS queries respond to queries. Via CLI on kali]
+
+Subdomains DNSs are managed by the company who was subqueried.
+May need to be connected to the company’s VPN to be able to query subdomain
+	DHCP sets up the DNS router when we are on premise and using the office network
+	VPN is best for out of office
+DHCP (domain host configuration protocol):
+Automatic IP addresses. DNS servers, subnet mask, etc
+Available on most home routers
+Enterprise's will run redundant DHCP servers
+
+
+
+File Share / fire server
+Purpose: Centralized storage for files to be accessed, managed, and shared across a network.
+Protocols:
+SMB (Server Message Block):
+Used primarily in Windows environments.
+Allows file and printer sharing across a network.
+AFP (Apple Filing Protocol):
+Used in macOS environments for similar file management tasks.
+User Interaction:
+Users don’t interact with the protocols directly.
+Operations like copying, deleting, or renaming files are handled through front end tools like the file explorer.
+
+Printer servers
+Allow multiple users on a network to send print jobs to a single or multiple printers.
+Setup:
+Software-based Print Servers:
+A dedicated computer runs software that manages the print queue and jobs.
+Hardware-based Print Servers:
+The printer itself has built-in network capabilities (e.g., Ethernet, Wi-Fi).
+Protocols:
+SMB: Common for sending print jobs, especially in Windows.
+IPP (Internet Printing Protocol): Allows remote printing over the internet or local networks.
+LPD (Line Printer Daemon): Legacy protocol, often found in Unix-like systems.
+Example: A university "Husky Printer" system lets students send jobs remotely, which are then queued for physical printing.
+
+
+
+
+
+Mail servers
+Requires 100% uptime and availability
+Critical service so 24/7 support and managed by ISP or local IT team
+
+Syslog
+Protocol that Consolidates message logs from different Network services (like DNS and DHCP).
+Syslog is usually Integrated into Security information and event manager (SIEM) to collect logs. Need a large drive array
+	Monitoring syslogs are great for identifying security threats, troubleshooting, and compliance audits
+Web servers
+Respond to browser request (80 & 443) by building out pages languages (ex HTML & HTML5)
+Static pages are transferred across the network
+Web server may dynamically create the page then sends the page down to the browser
+	More common now
+
+Authentication, authorization, and accounting (AAA)
+Purpose:
+A centralized system used to manage user authentication, authorization, and accounting for access to networks and resources.
+Role:
+Authentication: Verifies user identity (e.g., username and password).
+Authorization: Determines what resources the authenticated user can access.
+Accounting: Tracks user activity (e.g., login times, resources accessed).
+Authentication server so we can log into different services in organization as it centralizes
+	username and passwords
+	Highly critical; need to login to do work. 
+	Multiple servers for redundancy
+–
+Internet appliances
+purpose-built device or system designed to perform specific network-related tasks, such as spam filtering, firewalls, or threat management.
+Role:
+Provides dedicated functionality, often for network security or management.
+Simplifies deployment with pre-configured setups and integrated solutions.
+
+Hardware or software solutions to handle specific network or security related functions.
+	Standalone appliances optimized for efficiency, ease of deployment, etc
+
+
+
+Unified Threat Management (UTM) / web security gateway
+Consolidating all security functions on the network on a “next generation firewall”
+Functions: URL filtering
+	Malware or transfer files that transfer files
+	Spam filter
+	CSU / DSU ()
+	Routers / switch interface
+	Firewall
+	IDS / IPS (intrusion detection systems / intrusion protection systems)
+	Bandwidth shapers : quality of service application to prioritize different applications 
+	VPN endpoint
+
+May include a spam gateway
+Manages spam messages
+	Puts any unsolicited messages to get your attention into a spam folder / server
+	Content can range from ads to phishing
+- how long should we store spam and where
+Some servers have a separate mail gateway in the network
+	May be provided by 3rd party and may be stored in the cloud 
+-> mail gateway scans mail
+	Scanned mail is sent to internal network and stored in local mail server
+		Either categorized as spam or not
+	Some mail is outright rejected
+	
+
+
+
+Load balancers
+Enterprises are sensitive to down time
+	There are multiple servers of the same thing; invisible to end-user
+-> Load balancer distributes users to servers to distribute load
+	Sits between the internet and servers; maychange/help protocols
+Fault Tolerance:
+Fault tolerance means the system continues to operate without interruption, even if individual components (servers) fail.
+Fast convergence refers to the ability of the load balancer to quickly detect and adapt to changes, such as a server becoming unresponsive, and redistribute the workload to other servers without noticeable downtime for users.
+Features Explained:
+TCP Offload: Offloads the task of maintaining a constant TCP connection from the backend servers to the load balancer, reducing server load.
+SSL Offload: The load balancer handles encryption and decryption of secure traffic (HTTPS), freeing backend servers from this computationally intensive task.
+Caching Information: Stores frequently requested data locally, allowing the load balancer to fulfill requests quickly without contacting backend servers.
+Prioritizing (QoS): Ensures critical applications or webpages get the resources they need, improving performance for prioritized traffic.
+Content Switching: Directs traffic based on the type of application or content, routing to servers optimized for specific tasks (e.g., video streaming, database queries).
+There is vertical scaling: increasing resources (CPU, memory & bandwidth ) of load balancer
+Horizontal scaling: Deploying multiple load balancers
+Specialized hardware built for operations like SSL and offloading
+(QoS: quality of service)
+
+
+Proxy servers: additional security to internet connections
+Sits in the middle of an internet connection so proxy server is the one interacting with internet
+	user makes request to the proxy
+	Proxy performs actual request
+	Proxy provides results back to the client after examining for malicious
+Add security controls to proxy
+	Access control: requires username and password to gain access to the internet
+	Caching: stores frequently access content
+	Filter by URL : blocks specific websites based on predefined policies (like firewall)
+	Content scanning: inspect traffic for malicious / harmful content
+
+Why Add Access Control for Internet Access?
+This is often when you first login
+Different User Roles:
+Not all users should have the same level of internet access. For example:
+Employees may have unrestricted access.
+Guests might only access specific resources (e.g., the company’s website).
+- This is integrated with things like IAM who authenticates the user as guest or employee
+- without proxy Employees, guests, & unauthorized devices have similar internet access. 
+
+Sensitive Use Cases:
+Schools, research facilities, and companies might require logging in to ensure accountability and compliance.
+-Compliance Requirements: Regulatory bodies may mandate logging internet usage to ensure that users comply with data protection or usage policies (e.g., HIPAA for healthcare or GDPR for personal data).
+-User Identification: Requiring credentials ensures that all internet activity is tied to a specific user, making it easier to track behavior and investigate any breaches.
+-> Example Scenario: A university network requires students and faculty to log in with their credentials to prevent anonymous activity and ensure appropriate use of educational resources.
+Preventing Abuse:
+Credentials help avoid misuse, such as bandwidth hogging or unauthorized activity that could harm the network or violate policies.
+-Bandwidth Management: Prevent users from overloading the network by streaming high-definition videos or downloading large files unnecessarily.
+-Blocking Unauthorized Activity: Prevent unverified users from accessing sensitive areas of the network or engaging in malicious activities like phishing or data theft.
+
+
+
+Legacy embedded systems
+(SCADA/ ICS) Supervisory control and data acquisition
+System used to monitor, control, and manage large scale industrial operation
+	Hence the name industrial control system (ICS)
+	Common in industries of power generation, refining, manufacturing, logistics
+- Real time monitoring for insight
+- Control capability remote or automated
+- Improving efficiency and safety by reducing human intervention
+System is isolated from the rest of the network
+- cost of equipment: expensive and critical to operations
+- Limited access
+	Need additional rights/ permissions/ connections to access
+- Resilience against outages
+	If other parts of the network face downtime this segment is unaffected
+Challenges of legacy embedded systems
+- security risk to interception or spoofing
+- Outdated protocols not supported encryptions / authentication
+- difficult to upgrade due to being complex and costly (cost also comes in needing to be down)
+
+Legacy Systems: old system ~10+ years; may run important systems
+	Runs on older software / hardware
+		Difficult to resolve problems on them as they aren’t well support
+ 
+Embedded Systems: Purpose built device that only allow access to its service 
+	No access to operating systems or any other aspect
+	Need to rely on manufacturer of the system for support and maintenance
+	Systems: alarms, door security, time card systems (keep track of when people work)
+-> embedded systems are often built with specific hardware in mind (tightly integrated) limiting software updates as we would need a hardware redesign
+
+-> once a service is installed it is difficult to remove service it from the data center 
+Once a service in installed and integrated other system often biome reliant on it
+	Removing service could disrupt operations
+	Cost of downtime from updates or reconfiguration may delay change
+	If personnel familiar with the service leaves its harder to transition away from the service
+	Vendor lock in
+Internet of Thing (IoT) devices
+Found in enterprise and home networks
+	Appliances: fridge
+	Smart devices: smart speakers with voice commands
+	Air control: thermostat
+	Access: smart doorbells
+Security of these devices lead us to thinking of limiting breaches by segment IoT devices
+		
+
+
+2.5 Internet Protocol
+
+DHCP process as seen by the perspective of the workstation
+DNS protocols are critical so you configure 2 : these are both managed by google
+
+
+Internet protocol (IP) 
+OSI layer 3 address
+	Version 4
+	Version 6
+
+IPv4
+Primary protocol for everything
+Broken into 4 groups, each group has 8 bits = 1 byte = 1 octet
+	Max value per group  255 (2^8 = 256 but 0 indexing)
+	Total IPv4 address ~4.3 billion
+
+IPv6
+Accommodate growing number of devices; Most major operating systems support now
+Broken into 8 groups, each group has 16 bits = 2 bytes = 2 octets
+-> Provides 2^128, a practically unlimited supply.
+	Presented in hexadecimal format
+		2001:0db8:85a3:0000:0000:8a2e:0370:7334
+		-> groups with 0 are abbreviated by ::
+
+IPv6 commonly uses a 64 bit subnet mask
+	First 64 bits are network address (first 4 groups)
+	Last 64 bits are host address (last 4 groups)
+
+-> DNS is going to become more critical as IPv6 is longer and harder to remember
+
+
+When connecting a device it needs 
+	A unique IP address (private IP)
+		Within host address: 0 is for the network itself; last number is for broadcast
+	A subnet mask to distinguish what the network portion and the host portion of IP address
+		Device also now knows what devices are on the same local subnet or outside it  	
+
+When it needs to communicate outside the local subnet we also need a default gateway
+- If the destination IP belongs to a different subnet, the device will send the traffic to its default gateway. Usually router
+- router then determines where to send the traffic
+	Another subnet
+	Internet 
+		Translates private IP to Public IP via NAT on the router to use over the internet
+
+
+NAT (Network address translation)
+—
+Network scope
+	Larger scope = fewer network bits but more host per network
+	Smaller scope means more networks but fewer hosts per network.
+
+Subnet Mask: 255.255.254.0
+CIDR Notation: /23
+Number of host bits: 9
+Total addresses: 29=5122^9 = 51229=512
+Usable addresses: 512−2=510512 - 2 = 510512−2=510 (subtracting 2 for network and broadcast addresses).
+IPv4 does not provide enough addresses for everyone, so it is divided into:
+Public IPs: Limited and globally unique.
+Private IPs: Can be reused within private networks.
+Classes of Private IP Addresses
+Class A
+Range: 10.0.0.0 to 10.255.255.255
+Largest range: Over 16 million addresses.
+Usage: Large organizations and enterprises.
+Class B
+Range: 172.16.0.0 to 172.31.255.255
+Medium-sized range: 16 blocks with 65,534 addresses each.
+Usage: Schools, universities, and medium-sized businesses.
+Class C
+Range: 192.168.0.0 to 192.168.255.255
+Smallest range: Over 65,000 addresses.
+Usage: Small office/home office (SOHO) networks.
+Loopback Address
+Purpose: Used for self-diagnosis and troubleshooting at the machine level.
+Reserved Range: All 127.x.x.x addresses.
+Common Usage: 127.0.0.1 is the standard loopback address for testing network stack functionality.
+—
+
+
+
+
+1. Dividing a Larger Network into Smaller Subnets
+Yes, when we talk about dividing a larger network into smaller subnets, we're essentially taking one big network and breaking it down into smaller pieces.
+Example: Imagine a company has been assigned a Class B IP address (e.g., 172.16.0.0/16), which gives them a huge pool of IPs (65,536 addresses). This may be too large for one department, so they decide to break it down into smaller subnets, like:
+Subnet 1: 172.16.0.0/24 (256 IP addresses for Sales)
+Subnet 2: 172.16.1.0/24 (256 IP addresses for Marketing)
+Subnet 3: 172.16.2.0/24 (256 IP addresses for HR)
+2. These subnets talk to each other 
+	Different subnets? Router
+	Same? Just communicate directly via switches
+
+3. How Does the Internet Route to These Subnets?
+We replace private IPs with Public IP before sending it through the NAT to internet
+Public IP Address: The enterprise has a public IP address (or a range of IPs) that is used for communication with the outside world. This public IP might be assigned to the company's router or firewall that acts as the gateway between their internal network and the internet.
+NAT (Network Address Translation): Within the enterprise, most devices will be assigned private IP addresses (e.g., 172.16.x.x), but when these devices need to communicate with the internet, their private IPs are translated to the public IP address of the router. This allows them to access the internet without exposing internal IP addresses.
+For example, a device in the Sales subnet (172.16.0.5) might need to access a website. It sends the request to the router, which then replaces its private IP with the public IP (e.g., 203.0.113.1) before forwarding the request to the internet.
+This is done using NAT to ensure that devices in the private subnets can share the same public IP for internet communication
+—
+DHCP history
+IPv4 configuration used to be manual
+	Ip address, subnet mask, gatewak, DNS serer, NTP (network time protocol) servers, etc.
+BOOTP (bootstrap protocol)
+	Automatically configured some things but not everything
+	Couldn’t tell when IP address were available again to be reused
+DHCP since 1997
+	Automatically configures all necessary settings in DORA process
+D - discover
+	Device will try to locate DHCP server
+O - offer
+	DHCP will offer IP addresses to our device
+R - Request
+	Device will pick one of the IP addresses offered to it and then request it from DHCP
+A - Acknowledge
+	DHCP server will acknowledge offer and then provide all the DHCP settings it needs
+Broadcasts in DHCP
+Broadcast Nature:
+All DORA steps involve broadcasts, so every device on the network sees these transmissions.
+Router Handling of Broadcasts:
+Default Behavior: Routers do not forward broadcasts between subnets.
+Exception: Routers can be configured to act as a DHCP proxy/DHCP relay/IP helper to allow broadcasts for DHCP messages to pass through.
+Dynamic v static IP
+Dynamic: First available IP from pool of IP addresses
+Static: same IP address every time it starts up
+Server, printer, infrastructure, etc
+Static IP Methods:
+	Disabling DHCP and Manually configuring IP address
+		Need to reconfigure each time you make changes to the network
+	DHCP reserver: associate a MAC address to an IP address
+
+
+Broadcast multicast and unicast routers will not allow broadcast to pass
+-> in this case it does since the router is configured as its a DHCP proxy / DHCP relay /IP helper
+
+DHCP server offers options via broadcast and then then the client device examines it 
+ client request to the DHCP 
+
+ last broadcast to acknowledge
+
+
+What is APIPA?
+Purpose: APIPA is used when a device needs an IP address but cannot reach a DHCP server.
+Range: Reserved by the IETF in the range 169.254.0.0 to 169.254.255.255.
+First and last addresses are reserved for the network and broadcast, respectively.
+Functional block is  169.254.1.0 to 169.254.254.255.
+Functionality:
+Provides a link-local address, meaning it can only communicate with devices on the same local network.
+Cannot communicate outside the local network (no default gateway).
+APIPA Auto-Configuration Steps
+Device Attempts DHCP:
+When a device boots, it first tries to obtain an IP address from a DHCP server.
+Fallback to APIPA:
+If no DHCP server responds, the device assigns itself an IP address from the APIPA range.
+Random IP Selection:
+The device randomly chooses an IP within the 169.254.x.x range.
+ARP Conflict Check:
+The device sends an ARP (Address Resolution Protocol) broadcast to check if another device is already using the selected IP.
+If no response is received, the IP is assigned.
+Final State:
+The device now has an APIPA-assigned IP address.
+Why Does an Autoconfiguration IPv4 Address Indicate APIPA?
+"Autoconfigured" Status:
+If you see an IP address in the 169.254.x.x range, it is almost always because the device failed to obtain an IP from a DHCP server.
+The term "autoconfiguration" refers to the APIPA process of self-assigning an IP.
+No Default Gateway:
+APIPA does not provide a default gateway, so communication is limited to the local subnet.
+
+
+
+2.6 Compare and contrast common network configuration
+
+DNS
+
+DNS Overview
+Path and Hierarchy
+Root Clusters: 13 root clusters (over 1,000 actual servers).
+Top-Level Domains (TLDs):
+Generic TLDs (gTLD): .com, .org, .net, etc.
+Country Code TLDs (ccTLD): .us, .ca, .uk, etc.
+Subdomains: May host specific services (e.g., mail servers or region-specific servers).
+
+
+DNS lookup on CLI
+Ask what A record is associated with this website?
+-Dig: dig www.professor messer.com
+
+- nslookup
+
+
+
+-> Within dig we see that this is done using RR
+	IN A is asking for IPv4 from A records
+-> DNS provides a framework for storing and querying Resource Records ultimately
+2. Resource Records (RR)
+Core of DNS: large database that contains fully qualified domain names (FQDN) and IP address associated to them to do the translation
+There are 30+ record types: each type is for a different category of stuff
+A record: IPv4
+AAAA record (quad 4): IPv6
+MX (mail exchange) record
+TXT: used for security 
+(DKIM) DomainKeys Identified Mail
+	Adds digital signature to outgoing mail via a public key
+(SPF) Sender Policy Framework
+	List of authorized email servers for a domain
+(DMARC) Domain-based Message Authentication, Reporting, and Conformance
+	Extends DKIM and SPF by specifying actions for failed validation
+Configuration changes
+Configuration files are written in text 
+Easy to modify and update
+We can also use web based front end configuration
+-> Highly critical so maintain good backups before modifying configs
+	Understand all changes before implementing
+Address Records
+
+
+A Record (Address Record):
+Maps a domain name to an IPv4 address.
+Example: www.example.com -> 162.159.246.164.
+AAAA Record (Quad A):
+Maps a domain name to an IPv6 address.
+Example: www.example.com -> 2001:db8::ff00:42:8329.
+TTL (Time to Live):
+Specifies how long a DNS record is cached by a client.
+Example: A 15-minute TTL means the record will be cached for 15 minutes before another query is needed.
+Mail Exchange record (MX)
+Indicates where all emails should be delivered to by finding email server IP
+MX record which points to the mail domain name
+A record which converts mail domain name to IP
+
+TXT
+Originally created for comments now widely used for verification and security purposes.
+
+
+TXT used for Email Security
+DKIM (DomainKeys Identified Mail):
+Adds a digital signature to outgoing emails.
+Mail servers validate these signatures during transmission.
+Public Key for signature verification is stored as a TXT record in the DNS server.
+
+SPF (Sender Policy Framework):
+Lists all email servers authorized to send emails on behalf of a domain.
+Prevents spoofing by verifying the sender's server.
+Example:
+If an email claims to come from professormesser.com, the recipient server queries the SPF record in professormesser.com's DNS to confirm authenticity by checking host in v=spfl
+
+DMARC (Domain-based Message Authentication, Reporting, and Conformance):
+Extends SPF and DKIM validation.
+Specifies what happens if validation fails:
+Options: Accept, Spam, or Reject the email.
+Generates compliance reports on validated and failed emails.
+
+
+
+MX process of getting mail domain name first, then asking for IP rather than directly storing
+1) flexibility: any change would require updating all DNS references to that IP
+2) load balancing: There can be multiple servers
+3) human readability: We can follow a little easier
+
+
+
+Examples:
+A and AAAA records
+
+dig [website] txt
+	In answer we see it shows Stripe verification & mailgun.org to send out email messages
+ns lookup -type=txt [website]
+
+
+
+DMARC
+Why Can't the Public Key Be Used to Spoof?
+The public key can only verify signatures, not create them. Without the private key:
+An attacker cannot generate a valid signature for spoofed emails.
+Any email they send will fail DKIM verification because the signature won't match the public key in DNS.
+Analogous Situation: A Puzzle with Two Pieces
+Imagine you have two puzzle pieces:
+Private Key: This is like a unique puzzle piece that only the owner has. The shape and design of this piece are known only to the owner. It's secret and can't be duplicated by anyone else.
+Public Key: This is like a complementary puzzle piece that is publicly available to everyone. It fits perfectly with the private key’s puzzle piece, but it cannot create the private key itself. It only serves to verify that the private key’s puzzle piece fits correctly when it is used.
+Now, the important part is that the public key doesn’t allow anyone to figure out the private key. It can only serve one purpose: to check that the private key puzzle piece fits properly with the email’s "signature."
+
+
+
+
+
+DHCP Configuration Settings
+Scope:
+Each subnet has its own scope of IP addresses that DHCP can assign.
+scope is essentially a pool of available IP addresses that DHCP can assign to devices on the network.
+example, 192.168.1.0/24 and 192.168.2.0/24 each represent a range of IPs in their respective subnets.
+Subnet Mask:
+Defines the range of IPs in each subnet. For instance, a /24 subnet mask means the range will go from 192.168.1.0 to 192.168.1.255.
+Lease Duration:
+The amount of time a device holds onto an IP address from the DHCP server.
+Once the lease expires, the device has to renew its lease or release the IP.
+Devices can manually request a new IP or release the current one.
+Scope Options:
+These are additional parameters that can be assigned alongside the IP address, such as:
+DNS servers
+Default Gateway
+VOIP servers (Voice over IP, which allows voice calls using the internet)
+DHCP Types
+Dynamic Address Assignment:
+The device gets a random IP address each time it connects to the network.
+Automatic Assignment:
+A step further than dynamic, this ensures that the device gets the same IP address every time, if it’s available, based on previous assignments.
+DHCP server keeps a list
+DHCP Reservation:
+This ensures that a device always gets the same IP by associating its MAC address with a specific IP address.
+AKA
+Static DHCP assignment
+Static DHCP
+Static assignment
+IP reservation
+DHCP address allocation
+
+DHCP Renewal Process
+T1 Timer (50% of Lease Time):
+The device will try to renew its lease with the DHCP server. If successful, the lease period is extended.
+T2 Timer (87.5% of Lease Time):
+If the device couldn’t contact the server at T1, it will try again at T2, which is closer to the end of the lease time.
+We wait until the rebinding period
+If Renewal Fails:
+If the DHCP server is still unavailable, the device will continue trying to renew the lease until it either succeeds or the IP lease expires.
+
+DHCP in Home Networks
+In home networks, DHCP is often handled by a router rather than a dedicated DHCP server, making it more seamless for devices to obtain IP addresses without configuration.
+
+
+
+
+
+
+
+
+
+
+LAN (Local Area Network)
+A LAN consists of devices within the same broadcast domain, typically connected to the same switch.
+Separated Networks/Domains:
+Traffic Efficiency: Limits broadcast traffic within a network.
+Security: Isolates devices to reduce risks.
+Drawbacks of Physical Separation:
+Requires multiple switches, leading to:
+Increased purchase and power costs.
+Underutilized switch ports.
+Increased effort in managing multiple devices.
+Duplication of configuration tasks across multiple switches.
+
+VLAN (Virtual Local Area Network)
+A VLAN overcomes LAN drawbacks by using a single switch to:
+Logically separate devices into different broadcast domains or groups.
+Eliminate the need for multiple physical switches.
+Advantages:
+Cost Efficiency: Reduced hardware and power requirements.
+Simplified Management: Centralized configuration on a single switch.
+Left physically separated LAN | Right logically separated LAN (VLAN)
+
+
+
+
+VPN (Virtual Private Network)
+A VPN is a combination of software and hardware that allows secure communication over a public network, like the internet.
+Achieved through encryption, ensuring data remains private.
+VPN Components
+VPN Concentrator:
+A device (standalone or integrated into a firewall) that acts as the central point for encrypting and decrypting traffic between the client and the network.
+Sits in the middle of the conversation between the client and the site:
+Client to Site: Data sent by the client is encrypted and tunneled to the concentrator, which decrypts it for the site.
+Site to Client: The concentrator encrypts data from the site, sending it through a secure tunnel to the client.
+VPN Apps:
+Many VPN implementations provide apps that integrate with the operating system, making it easy for users to establish secure connections.
+
+
+Client-to-site VPN
+
+
+
+
+2.7 Network types & Internet connection types
+
+
+Network Types:
+
+PAN (Personal Area Network):
+Used for short-range communication like Bluetooth, infrared (IR), or near-field communication (NFC).
+Examples:
+Connecting a mobile phone to a wireless headset or car audio system.
+Health devices like workout telemetry equipment transmitting data for reports.
+LAN (Local Area Network):
+Covers a local area, such as a building or group of nearby buildings.
+Local is relative
+High-speed communication using Ethernet or 802.11 (Wi-Fi).
+Anything slower is not considered a LAN.
+WLAN (Wireless Local Area Network):
+A wireless version of a LAN, using 802.11 technology.
+Has limited range but can be extended with additional access points.
+MAN (Metropolitan Area Network):
+A larger network than a LAN, but confined to a single city or metropolitan area.
+Common technologies include Metro Ethernet.
+Common for government to use as they have the right away to be able to put conduit in the ground and extend fiber connection between their remote sites
+WAN (Wide Area Network):
+A global network connecting locations across the world.
+Speeds are slower than LAN due to the vast distances involved.
+terrestrial connection
+point-to-point serial, MPLS, or underground fiber)
+non-terrestrial (e.g., satellite) connections.
+SAN (Storage Area Network):
+A specialized network for centralized storage, providing block-level access similar to a local device's storage.
+Efficient for reading and writing data.
+Requires high bandwidth and is often isolated on its own dedicated high-speed network.
+
+—
+
+Internet Connection Types
+There is more than one way to connect to the internet, categorized as non-terrestrial and terrestrial connections.
+
+Non-Terrestrial Connections (e.g., satellite, in space)
+Satellite Internet:
+High Cost: More expensive compared to terrestrial networks.
+Speeds: Commonly 50 Mbit/s download and 3 Mbit/s upload.
+High Latency:
+Traditional satellite latency: ~200 ms (up) + ~250 ms (down) due to the long journey to and from satellites in orbit.
+Newer technology like Starlink advertises 40 ms latency (with potential for 20 ms in the future).
+Frequency: Operates at high frequencies (e.g., 2 GHz), requiring a line of sight for connectivity.
+Prone to rain fade, where heavy rain interrupts the signal
+Terrestrial Connections (on Earth)
+Fiber Optic:
+Technology: Uses the frequency of light to transmit data.
+Advantages:
+High bandwidth: Can carry the most data over long distances.
+Now extends to homes (Fiber-to-the-Home or FTTH).
+Challenges:
+High installation and repair costs due to expensive equipment and delicate infrastructure.
+Use Case: Commonly connects enterprise networks and WAN cores for high data rates using technologies like SONET (Synchronous Optical Networking) and Wavelength Division Multiplexing (WDM).
+Cable Broadband:
+Technology: Uses the same coaxial cable as television.
+Broadband: Communicates across different frequencies on the same wire.
+Standard: DOCSIS (Data Over Cable Service Interface Specification) allows simultaneous delivery of data, voice, and video.
+Speeds: Typically 1 Gbit/s or higher.
+Advantages: Eliminates the need for multiple cables into a home.
+DSL/ADSL (Asymmetric Digital Subscriber Line):
+Technology: Uses existing copper telephone lines.
+Asymmetric Speeds:
+Download speeds are faster than upload speeds (e.g., 200 Mbit/s down and 20 Mbit/s up).
+Limitation:
+Performance depends on the distance from the Central Office (CO).
+Has a 10,000-foot limitation from the CO.
+Wireless Internet Service Provider (WISP):
+Technology: Uses localized ground stations to deliver internet in areas without significant infrastructure.
+Typical Locations: Found in rural areas or underserved regions.
+Technologies Used:
+Mesh networks (802.11).
+5G home internet or proprietary wireless systems.
+Requirement: An outdoor antenna is needed to send and receive information.
+Performance: Speeds range from 10 Mbit/s to 1,000 Mbit/s.
+Cellular Networks:
+Data Transmission: Uses cellular data via mobile phones.
+Features:
+Tethering: Turns a phone into a wireless router for internet sharing.
+Mobile Hotspot: Converts a phone into a Wireless Access Point (WAP).
+
+
+2.8 Networking tools
+
+Crimper
+Purpose: Attaches connectors (like RJ-45 for Ethernet) to the ends of cables.
+Process:
+Slide the wires into the connector (e.g., RJ-45).
+Each wire type has its own specific connector (cat 6, cat 5)
+Use the crimper to press the copper connections into the wires, creating a solid connection.
+Check for a good crimp:
+Wires reach the top of the connector.
+The copper is meshed correctly.
+Cable is held securely by the connector.
+
+Right connector:
+	Pins currently elevated to allow the wire to slide underneath it 
+	Crimper would then push down the pins to mesh into the wire and create a connection
+Good Crimp: All pins connected; wire to the tip; sheath holder (where mouse is pointing)
+
+Cable Tools
+Cable Stripper: Removes the outer insulation of a cable without damaging the wires inside.
+Electrician Scissors / Cable Snips: Cuts cables to the desired length.
+
+Wi-Fi Analyzer
+Purpose: Monitors wireless networks to analyze signals and detect interference.
+Use Cases:
+Identify which frequencies are in use.
+Optimize Wi-Fi coverage by adjusting antennas.
+Diagnose Wi-Fi problems in areas with multiple access points.
+Formats: Can be a software app or a dedicated hardware device.
+
+Toner Probe (Tone Generator)
+Purpose: Helps trace where a wire runs.
+How It Works:
+The tone generator sends a signal through a wire.
+The inductive probe detects the signal without needing direct contact with the inner wiring.
+Use Cases: Tracing cables in walls, ceilings, or large bundles.
+
+Punchdown Tool
+Purpose: Used for terminating wires into punch-down blocks (e.g., 66 block, 110 block).
+Key Features:
+Pushes each wire into its slot and trims the excess.
+Ensures a secure and clean connection.
+Best Practices:
+Maintain the twist of the wires as close to the connection as possible to reduce interference.
+Use numbers or tags to document and organize cables.
+Document and tag everything
+
+Cable Tester
+Purpose: Verifies the continuity of a cable and ensures all pins are correctly connected.
+Capabilities:
+Detects missing connections with pin or crossed wires.
+Limitation: don’t measure signal quality (e.g., crosstalk, signal loss).
+For advanced diagnostics, use a Time Domain Reflectometer (TDR).
+
+Time Domain Reflectometer (TDR)
+Purpose: Measures signal quality in cables, such as:
+Crosstalk (interference between wires).
+Signal loss.
+Cable length and location of faults.
+How It Works: Sends a signal down the cable and measures the time it takes to reflect back.
+
+
+
+
+
+Troubleshooting
+Testing the Interface:
+Plug the loopback device directly into the port.
+Run a diagnostic tool or send test data.
+If the port sends data and receives it back correctly, the interface (port) is working fine.
+If it fails, the problem lies within the port hardware, and the cable isn't at fault.
+Eliminating the Cable:
+Once you've confirmed the interface is fine, you can now test the cable separately.
+Cables in complex wiring structures (e.g., through walls or ceilings) are time-consuming and costly to replace, so it's crucial to rule out the device interface first.
+
+
+–
+1) Loopback Plug
+Troubleshoot device interface (ports):
+Sending a signal out.
+Receiving the same signal back.
+Comparing the sent and received signals.
+An interface refers to the physical hardware port on a device where data is sent or received. Such as a port
+	Each type of interface typically requires a specific loopback plug design.
+How a Loopback Plug Works
+Sending Data:
+The device transmits a test signal (data) through its transmit pins (e.g., TX pins).
+Looping the Data:
+The plug redirects (or "loops") this signal back into the device's receive pins (e.g., RX pins).
+Comparison:
+The device compares the data it sent with the data it received:
+Match: The interface is working correctly.
+Mismatch: There may be a problem with the hardware (e.g., 
+-> Ethernet (RJ-45) loopback pin configuration of the loopback plug typically connects:
+Transmit Pins (TX): Pin 1 to Pin 3, and Pin 2 to Pin 6.
+Receive Pins (RX): These pins receive the transmitted signal for comparison.
+
+
+(Not cross over cable: crossover cable connects two devices directly (e.g., computer to computer).
+2) Network tap and port mirrors
+
+When troubleshooting or analyzing network traffic, network taps and port mirrors are two essential tools used to intercept, monitor, and analyze network data. 
+a.  Network Taps
+A network tap (Test Access Point) is a physical device that sits in the middle of a network link to copy traffic passing through the connection. It allows an administrator to monitor data without disrupting the flow.
+How It Works
+Installed directly on a physical connection (e.g., Ethernet or fiber optic cable).
+Splits the network signal to create a duplicate copy of the data for monitoring.
+The duplicate copy is sent to a monitoring device (like a packet sniffer, intrusion detection system, or analyzer).
+	Passive: doesn’t require power to function
+Commonly used in fiber optic networks
+Active: requires external power function
+	Used for copper ethernet cables (cat5 / cat6,etc)
+
+(Monitor is where can take out the information being copied)
+b. Port Mirror / (SPAN)  Switched Port Analyzer.
+A port mirror is a software feature built into network switches that can replicate data from one or more switch ports to another port for monitoring purposes.
+How It Works
+Configured on the switch itself.
+Designates one or more source ports/interfaces (where traffic originates) and a destination port (where the mirrored traffic is sent).
+The destination port is connected to a monitoring device.
+Use Cases
+Monitor traffic on specific interfaces or VLANs.
+Debug and analyze network behavior.
+Capture data for troubleshooting or compliance audits.
+
+-> This has resource limitation such as bandwidth; Used for simple or temporary case
+
+
+
+Hardware
+3.1 cable types and connector tables
+
+Network Cables
+Fundamental to network communication
+When building out a new place you get one opportunity for cabling infrastructure
+ 
+Copper cables
+Twisted Pair Copper Cabling
+Primarily used for Ethernet and telephony.
+Twisted Pair Categories and Speeds
+
+1000Base-T (Gigabit Ethernet):
+Cat5: Up to 100 Mbps (100 meters).
+Cat5e: Up to 1 Gbps (100 meters), better crosstalk resistance.
+10GBase-T (10 Gigabit Ethernet):
+Cat6:
+Unshielded: Up to 55 meters.
+Shielded: Up to 100 meters.
+Cat6a: Up to 100 meters, improved shielding.
+Balanced Pair Operation:
+Each pair transmits equal and opposite signals (+ and -).
+Transmit +,Transmit -/ receive +. Receive -
+Reduces interference by comparing signals at the receiving end to cancel out noise.
+Why Twisting Helps:
+Reduces EMI (Electromagnetic Interference):
+Twisting ensures interference affects both wires equally but in opposite phases.
+Noise cancels out during signal processing.
+Reduces Crosstalk:
+Different twist rates for each pair minimize interference between pairs.
+Improves signal quality and allows data to travel farther.
+Twisted Pair Types:
+Unshielded Twisted Pair (UTP):
+Most common for home Ethernet.
+No extra shielding.
+(braided) Shield Twisted Pair (STP):
+Includes braided shielding for added protection from EMI.
+Foil (FTP)
+May have a drain wire for grounding interference.
+Used in areas with high EMI or for direct burial.
+> S/FTP: Shielded and Foil
+> F/UTP: Foil unshielded
+
+(LEFT) top is UTP; bottom is S/FTP 
+	(Right) S/FTP (braided) shield and foil twisted pair
+Specialized Cables:
+Direct Burial STP:
+Designed for underground installation.
+Features waterproofing, often with gel filling.
+Adds strength and interference protection.’
+May use a Drain (ground) Wire. Draining away additional voltage
+ensuring that any interference absorbed by the shield is safely grounded
+No need for conduit (right: tube or pipe that protects cables)
+
+
+Plenum and Non-Plenum Cables
+
+
+Plenum-rated cables:
+Used in air-handling spaces (e.g., HVAC plenum spaces).
+Have jackets made of FEP (fluorinated ethylene polymer) or low-smoke PVC.
+Resist spreading smoke and toxic fumes during a fire.
+Non-plenum cables:
+Standard Ethernet cables with PVC jackets.
+Less expensive but not safe for plenum spaces.
+
+ 
+
+
+Plenum spaces (often above ceilings or below floors) used for air circulation, typically part of the HVAC system. These spaces can also be used to route cables, which is why plenum-rated cables are required there. In a fire, these cables could spread smoke and toxins through the air ducts if not made with fire-resistant materials.
+
+
+
+Coaxial Cables: Coaxial cables are commonly used for transmitting TV signals, cable internet, and other data transmissions. They consist of several layers that work together to protect the signal and maintain its integrity.
+Structure:
+Central copper conductor: The innermost part, usually made of copper, carries the electrical signal.
+Insulating layer: Surrounds the central conductor, preventing it from touching other layers and causing short circuits.
+Metallic shield: A layer of metal (often copper or aluminum) that helps prevent electromagnetic interference (EMI) from disrupting the signal.
+Outer jacket: The final protective layer that shields the internal components from physical damage and environmental factors.
+Common Type:
+RG-6 is the most commonly used type of coaxial cable for both TV and cable internet connections. It has a thicker insulation and a lower resistance to signal loss compared to other types like RG-59.
+Shared Axis Concept:
+The term "coaxial" comes from the idea that the central conductor and the shield share a common axis. In simpler terms, the central copper conductor and the metallic shield are aligned along the same centerline (axis). This design is crucial because:
+The shielding (metallic layer) surrounds the inner conductor concentrically, providing protection from external interference while allowing the signal to travel through the central conductor.
+This shared axis ensures that the signal is well-protected and travels with minimal interference, as the shield acts as a barrier against unwanted external signals.
+
+
+
+
+
+
+
+
+Optical 
+- Fiber
+
+T568A/T568B
+
+
+Peripheral cables
+USB 2.0 - USB 3.0 - Serial - Thunderbolt
+
+Video Cables
+High-Definition Multimedia Interface (HDMI) - DisplayPort - Digital Visual Interface (DVI) - Video Graphics Array (VGA)
+
+Hard drive cables
+- Serial Advanced Technology Attachment (SATA) - Small Computer System Interface (SCSI) - External SATA (eSATA) - Integrated Drive Electronics (IDE)
+
+Adapter connector types
+- RJ11 - RJ45 - F type - Straight tip (ST) - Subscriber connector (SC) - Lucent connector (LC) - Punchdown block - microUSB - miniUSB - USB-C - Molex - Lightning port - DB9
+
+Practice Questions:
+
+
+
+Domain 1.1
+Q: Which of the answers listed below describe the function of a laptop's inverter?
+A: Convert DC power into AC power
+Used for supplying voltage to backlights in older type of LCD panels
+
+Q: A type of laptop expansion card that enables communication over cellular network is referred to as:
+A: WWAN wireless wide area network
+
+
+
+Domain 1.2
+
+TN: Low viewing angles, low color quality, fast response time, 
+VA: High contrast ratios, good viewing angles, good color quality
+IPS: High color quality, wide viewing angles, slow response time
+
+OLED: works without backlight, lower light output (brightness) in comparison to LCD, better contrast ratio and color representation to LCD
+
+Q: list functions of digitizer
+A: translates analog data into suitable format for computer processing, allows control of devices with a stylus or fingertip, a type of input device
+
+Q; Which of the actions listed below would be of help while troubleshooting non-responsive touch screen on a mobile device?
+A: Reseating the device's battery
+Erasing all content/settings and restoring the device to factory defaults (factory reset/hard reset)
+Pressing a specific key combination/button to perform system restart (soft reset)
+Removing screen protector and cleaning the screen
+-> All of the above ( Your answer)
+
+Domain 1.3
+Q: Examples of USB ports that can be found on mobile devices include: (Select 3 answers)
+A: USB-C, Micro USB and Mini USB
+	Micro USB is the successor of Mini USB as phones got slimmer and is also improved
+
+
+ A database on a mobile device containing bands, sub-bands and service provider IDs allowing the device to establish connection with the right cell phone tower is called:
+-> PRL
+
+Q: Which type of software enables centralized administration of mobile devices?
+A: MDM (mobile device management)
+
+Q:  Which of the following facilitates the enforcement of mobile device policies and procedures?
+A:  MDM
+
+
+
+
+Q: Which of the answers listed below refers to a dedicated mobile app management software?
+A: MAM (Mobile app management)
+
+
+Q:  Which of the following are examples of universal connection types that enable mobile device synchronization?
+A: All – IEEE 802.11, IEE 802.3, USBC, cellular, & bluetooth
+	80.3 is ethernet
+
+Q: Which of the following answers refers to a common fix for cursor drift?
+ A: Calibration
+
+1.4
+Q: Examples of connectionless protocols include: (Select 2 answers) Connectionless = UDP
+A: DHCP
+TFTP (Trivial File Transfer Protocol):
+Used for transferring small files, like configuration data or boot images.
+Common in environments like routers or diskless workstations.
+
+Q: Which of the following answers refers to a Microsoft-proprietary remote-access protocol providing a user with a graphical interface for connecting to another computer over a network?
+A: RDP (remote desktop protocol)
+	Microsoft where I want to troubleshoot  configure GUI based software
+
+Q: What are the characteristics of SMB/CIFS? (Select all that apply)
+A: SMB: server mail block; Common Internet File System
+
+Q: Which of the following is in use when a WINS (windows internet name service) server tries to resolve a host name into an IP address on a Windows-based LAN?
+NetBIOS; these are all legacy systems
+
+Q: The function of the NetBT protocol is to allow NetBIOS services to be used over TCP/IP networks.
+A: True as it originally wasn’t available over TCP/IP
+
+
+
+
+Domain 2.2
+Which of the following type of network hardware is used to connect two dissimilar networks 
+	connecting a local area network (LAN) to the wide area network (WAN)
+-> Router: network device that links dissimilar network and can support multiple alternate paths between locations based upon parameters of speed, traffic loads, and cost
+	Router are logically divide networks into subnets
+Not hub: has no intelligence.
+Not WAP: provides wireless connectivity as an extension of a LAN
+Not managed switch: received incoming data where it compares destination MAC to optimize traffic within a local network by forwarding the info to the correct port 
+
+Q:  The functionality of a Network Interface Card (NIC) can be checked by pinging: (Select 3
+A: 
+- localhost (127.0.0.1): Pings the loopback address to test the NIC's ability to send and receive signals internally.
+- 127.0.0.1: Another way to represent the loopback address.
+- ::1: The IPv6 equivalent of the loopback address.
+-> loopback address refers to a special IP address used to test the internal networking capability of a device, specifically its ability to send and receive data without leaving the device. It is used to diagnose network interface issues on the local machine.
+
+Q:  The term "Port flapping" refers to a condition where port light on a network device rapidly alternates between up and down states. This problem is usually related to faulty or unsupported cable and/or incorrect link synchronization settings such as speed and duplex mismatch.
+A: Faulty or unsupported cables.
+Mismatched speed and duplex settings.
+Link synchronization problems.
+Up state: A port is active and can send and receive data.
+Down state: A port is inactive, meaning it cannot send or receive data.
+->This can disrupt traffic and potentially affect the entire network.
+Q:  Which of the following tools allows to identify bad port on a network device?
+A: loopback plug
+
+
+2.3 domain
+Q: Which of the following antenna types would be the least suitable for long-range point-to-point bridging links?
+A: Omnidirectional antenna
+
+Q:  Which of the following answers refer to directional antenna types suitable for long-range point-to-point bridging links? (Select 3 answers)
+A:  yagi, antenna, dish antenna, parabolic antenna
+-> Omni directional antennas = signal in all directions (360°)
+	We need focused antennas
+
+Q:  Which of the answers listed below refers to an example of an unlicensed wireless frequency band?
+A: all: 900 MHz, 2.4 GHz, 5GHz, 5.5 GHz
+Q: Which wireless technology enables identification and tracking of tags attached to objects?
+A: RFID
+Q:  A type of identification badge that can be held within a certain distance of a reader to authenticate the badge holder is called:
+A: RFID
+RFID Badge: Uses radio-frequency identification (RFID) technology, allowing the badge to be read from a distance without physical contact. This is the correct answer for a badge that authenticates a user within a certain proximity.
+Security Token: Refers to a physical or digital device (e.g., a USB key, smartphone app) that generates or stores credentials used for secure authentication. It's not typically used as a proximity-based badge.
+Smart Card: Usually requires direct insertion into a reader, rather than proximity-based authentication.
+ID Badge: A generic term that doesn’t imply specific functionality like proximity authentication or RFID technology.
+
+-> RFID is a broader category, and NFC is a subset of RFID focused on very short-range communication (a few centimeters). Most proximity-based identification badges use RFID, not specifically NFC.
+
+2.5 IP
+Q: What are the characteristic features of the 192.168.0.0 - 192.168.255.255 (192.0.0.0/16) IPv4 address space? (Select 2 answers)
+A: Non-routable (private) IP address range ( Your answer)
+   Class C range ( Your answer)
+-> Non-routable ?
+
+
+2.7 
+Q: Which WAN technology takes advantage of cell towers that provide wireless signal coverage for mobile devices?
+A:  WWAN (wireless wide area network)
+Q:  An ISP offering Internet access to subscribers at a designated wireless hotspot is known as:
+A: WISP (wireless Internet service provide)
+“A wireless internet service provider (WISP) is an internet service provider (ISP)”
+
+2.8  
+Q: Which of the tools listed below would be used for troubleshooting incorrect pinouts on a cable?
+A: Cable testers not loopback plug
+
+Pinouts ?
+
