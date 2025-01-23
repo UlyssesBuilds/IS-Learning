@@ -1,4 +1,4 @@
-# IS-Learning
+# Diving Deeper into Technical Learning
 Hands on technical learning
 
 
